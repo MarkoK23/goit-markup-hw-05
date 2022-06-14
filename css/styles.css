@@ -279,12 +279,15 @@ header {
 }
 
 .modal-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
-  margin-left: auto;
-  margin-right: 8px;
-  margin-top: 8px;
   border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: #000000;
@@ -710,7 +713,6 @@ header {
 }
 
 .actions-text {
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
   color: #ffffff;
